@@ -13,6 +13,8 @@ const createElement = fonts => {
   const link = document.createElement('link')
   link.rel = 'stylesheet'
   link.href = `https://fonts.googleapis.com/css?family=${families}`
+
+  return link
 }
 
 const ReactFontLoader = ({ fonts }) => {
