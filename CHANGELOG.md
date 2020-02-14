@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/rfoel/react-font-loader/compare/v0.0.4...v0.0.5) (2020-02-14)
+
+
+### Bug Fixes
+
+* fix undefined weight ([102fd40](https://github.com/rfoel/react-font-loader/commit/102fd401b2fe2e8766689312b47ec70c8a2a8857))
+
 ### [0.0.4](https://github.com/rfoel/react-font-loader/compare/v0.0.3...v0.0.4) (2020-02-14)
 
 
