@@ -5,7 +5,7 @@ const createElement = fonts => {
   const families = fonts
     .reduce((accumulator, font) => {
       const family = font.name.replace(' ', '+')
-      const weight = font.weight && `:${font.weight.join(',')}`
+      const weight = (font.weight && `:${font.weight.join(',')}`) || ''
       return [...accumulator, `${family}${weight}`]
     }, [])
     .join('|')
