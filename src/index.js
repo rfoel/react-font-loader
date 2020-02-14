@@ -18,7 +18,7 @@ const createElement = fonts => {
 const ReactFontLoader = ({ fonts }) => {
   useEffect(() => {
     const element = createElement(fonts)
-    document.haed.appendChild(element)
+    document.head.appendChild(element)
 
     return () => document.head.removeChild(element)
   }, [])
