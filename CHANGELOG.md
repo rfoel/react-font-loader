@@ -2,4 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/rfoel/react-font-loader/compare/v0.0.1...v0.0.2) (2020-02-14)
+
+
+### Bug Fixes
+
+* fix typo ([85e22d1](https://github.com/rfoel/react-font-loader/commit/85e22d195b5999f100e8ce9f4acd3734843408f2))
+
 ### 0.0.1 (2020-02-14)
