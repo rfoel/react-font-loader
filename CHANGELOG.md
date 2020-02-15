@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.7 (2020-02-15)
+
+
+### Features
+
+* add es module ([5b4886d](https://github.com/rfoel/react-font-loader/commit/5b4886d51899bce2ab4f1062fe18f85ac840c76f))
+
 ### 0.0.6 (2020-02-14)
 
 ### [0.0.5](https://github.com/rfoel/react-font-loader/compare/v0.0.4...v0.0.5) (2020-02-14)
