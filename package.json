@@ -3,11 +3,17 @@
   "version": "0.0.6",
   "description": "React component to load Google fonts",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "repository": "git@github.com:rfoel/react-font-loader.git",
   "author": "Rafael Franco <rafaelfr@outlook.com>",
   "license": "MIT",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "font-loader",
+    "google-fonts"
   ],
   "scripts": {
     "build": "rollup -c",
