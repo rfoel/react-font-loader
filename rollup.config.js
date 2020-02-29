@@ -1,6 +1,7 @@
 import babel from 'rollup-plugin-babel'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
+import minify from 'rollup-plugin-babel-minify'
 
 import pkg from './package.json'
 
@@ -11,6 +12,7 @@ const plugins = [
     exclude: 'node_modules/**',
   }),
   resolve(),
+  minify(),
 ]
 
 export default [
