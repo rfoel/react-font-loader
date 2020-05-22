@@ -2045,9 +2045,9 @@ eslint-config-1e3-react@^0.1.23:
   integrity sha512-M/7GNj0A4UIp0IaS/tB5VdwFc5/6x1DOLCXCi66Gdz5BoQOi5xJt8THfeEBSelV3o38QBivawQ6Zu2HE0qAOPw==
 
 eslint-config-1e3@^0.1.23:
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/eslint-config-1e3/-/eslint-config-1e3-0.1.23.tgz#58fff20a3d4c07499c3a40047879676e5ca98d00"
-  integrity sha512-RQz/XeFPYFIlrruAyAaG5C6Ps4yDtWkw13yNH1AfjLmzt1nioeJT73b3HYTahDxnyXSIMaxD7Ox45nOgr+a/zg==
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/eslint-config-1e3/-/eslint-config-1e3-0.1.24.tgz#2ec1a0400f243d41642f11e421e8edd82fac0394"
+  integrity sha512-4KERIebLFLLFhiEcmfV2RwdOGkyq1AM/1ATzEZK+5H9zrD9wlUWrtXFIhdO4+Iw084953ut+zWji4Cim8Zryjg==
 
 eslint-config-airbnb-base@^14.0.0:
   version "14.0.0"
