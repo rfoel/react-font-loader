@@ -12,4 +12,5 @@ update_configs:
           dependency_type: production
           update_type: semver:minor
     commit_message:
+      prefix: 'chore'
       include_scope: false
