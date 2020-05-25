@@ -2040,9 +2040,9 @@ escape-string-regexp@^1.0.5:
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
 eslint-config-1e3-react@^0.1.23:
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/eslint-config-1e3-react/-/eslint-config-1e3-react-0.1.23.tgz#7b24db35ae5475e6d7cefb2885ce6468e004b91c"
-  integrity sha512-M/7GNj0A4UIp0IaS/tB5VdwFc5/6x1DOLCXCi66Gdz5BoQOi5xJt8THfeEBSelV3o38QBivawQ6Zu2HE0qAOPw==
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/eslint-config-1e3-react/-/eslint-config-1e3-react-0.1.24.tgz#59430c99f2f01ac51ecf7fa33bf5cdbb0a6a7888"
+  integrity sha512-jFd49TJsCrboHG4TBysrNGhqVicPd4Yabo8EyHajcFY/X7CN3F1S8RfRjUQi4ZsfwEPA/qE00rMmfiP0iSTcaQ==
 
 eslint-config-1e3@^0.1.23:
   version "0.1.24"
