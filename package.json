@@ -2,66 +2,50 @@
   "name": "react-font-loader",
   "version": "0.0.8",
   "description": "React component to load Google fonts",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "homepage": "https://github.com/rfoel/react-font-loader#readme",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:rfoel/react-font-loader.git"
-  },
-  "author": "Rafael Franco <rafaelfr@outlook.com>",
+  "author": "rfoel",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
+  "repository": "rfoel/react-font-loader",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.js",
+  "engines": {
+    "node": ">=10"
+  },
   "keywords": [
     "react",
     "hook",
     "font-loader",
     "google-fonts"
   ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "lint": "eslint . --fix",
-    "prepublishOnly": "yarn build",
-    "release": "standard-version"
+    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "postinstall": "yarn build"
   },
   "peerDependencies": {
-    "prop-types": "^15.7.2",
     "react": ">= 16.8.0"
   },
-  "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "@babel/preset-react": "^7.8.3",
-    "@rollup/plugin-commonjs": "^11.0.2",
-    "@rollup/plugin-node-resolve": "^7.1.1",
-    "babel-eslint": "^10.0.3",
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-1e3": "^0.1.23",
-    "eslint-config-1e3-react": "^0.1.23",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.3.0",
-    "prettier": "^1.19.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "rollup": "^1.31.0",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-babel-minify": "^9.1.1",
-    "standard-version": "^7.1.0"
+  "dependencies": {
+    "prop-types": "^15.7.2"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "microbundle-crl": "^0.13.10",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1"
   }
 }
