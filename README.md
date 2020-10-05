@@ -20,8 +20,8 @@ import ReactFontLoader from 'react-font-loader'
 const App = () => {
   return (
     <div>
-      <ReactFontLoader fonts={[{ name: 'Permanent Marker' }]} />
-      <h1 style={{ fontFamily: 'Permanent Marker' }}>Custom font</h1>
+      <ReactFontLoader url='https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap' />
+      <h1 style={{ fontFamily: 'Red Hat Display' }}>Custom font</h1>
     </div>
   )
 }
@@ -36,11 +36,14 @@ import React from 'react'
 import useReactFontLoader from 'react-font-loader'
 
 const App = () => {
-  useReactFontLoader({ fonts: [{ name: 'Permanent Marker' }] })
+  useReactFontLoader({
+    url:
+      'https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap',
+  })
 
   return (
     <div>
-      <h1 style={{ fontFamily: 'Permanent Marker' }}>Custom font</h1>
+      <h1 style={{ fontFamily: 'Red Hat Display' }}>Custom font</h1>
     </div>
   )
 }
