@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/rfoel/react-font-loader/compare/v1.0.0...v2.0.0) (2020-11-03)
+
+
+### Bug Fixes
+
+* remove postinstall script ([720f773](https://github.com/rfoel/react-font-loader/commit/720f77380822333363811d50bc7f80d93bb3d276))
+
+
+### Features
+
+* accept single url as prop ([d041b55](https://github.com/rfoel/react-font-loader/commit/d041b55a1f2752ad35b4322a275237577ae02bef))
+
+
+### BREAKING CHANGES
+
+* removed fonts prop
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
